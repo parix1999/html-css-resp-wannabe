@@ -1,3 +1,8 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
 .row {
   width: 992px;
   margin-left: auto;
@@ -72,3 +77,20 @@ img {
   clear: both;
 }
 /* inizio esercizio */
+@media screen and (max-width:420px) {
+  #lezioni .row{
+    background-color:#f2f2cd;
+    text-align:center;
+    width:100%;
+  }
+  #lezioni .row .left{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  #lezioni .row .right{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+}
