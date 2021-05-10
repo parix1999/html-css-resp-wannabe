@@ -75,6 +75,9 @@ img {
 /* inizio esercizio */
 @media screen and (max-width:420px) {
   /* prima parte lezioni */
+  *{
+    margin:0;
+  }
   #lezioni .row{
     background-color:#f2f2cd;
     text-align:center;
@@ -117,5 +120,15 @@ img {
     background-color:#f2f2cd;
     text-align:center;
     width:100%;
+  }
+  #why img{
+    width:20%;
+    height:20%;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 30px;
   }
 }
