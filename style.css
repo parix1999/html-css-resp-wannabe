@@ -115,5 +115,10 @@ img {
     text-align:center;
     width: 100%;
   }
-
+  /* terza parte why */
+  #why .row{
+    background-color:#f2f2cd;
+    text-align:center;
+    width:100%;
+  }
 }
