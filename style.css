@@ -71,12 +71,14 @@ img {
 .clear {
   clear: both;
 }
+
 /* inizio esercizio */
 @media screen and (max-width:420px) {
   /* prima parte lezioni */
   #lezioni .row{
     background-color:#f2f2cd;
     text-align:center;
+    margin-top:0;
     width:100%;
   }
   #lezioni .row .left{
