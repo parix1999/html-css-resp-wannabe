@@ -78,6 +78,7 @@ img {
 }
 /* inizio esercizio */
 @media screen and (max-width:420px) {
+  /* prima parte lezioni */
   #lezioni .row{
     background-color:#f2f2cd;
     text-align:center;
@@ -93,4 +94,26 @@ img {
     text-align:center;
     width:100%;
   }
+  /* seconda parte steps */
+  #steps .row{
+    background-color:white;
+    text-align:center;
+    width:100%;
+  }
+  #steps .row .left{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  #steps .row .central{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  #steps .row .right{
+    float:none;
+    text-align:center;
+    width: 100%;
+  }
+
 }
